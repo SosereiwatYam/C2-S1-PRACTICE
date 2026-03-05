@@ -6,7 +6,7 @@ export const Score = ({ courseName, courseResults }) => {
 
   return (
     <div className="scores">
-      <h1>{courseName}</h1>
+      <h1>{courseName}</h1>   
 
       <table>
         <thead>
