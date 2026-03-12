@@ -4,6 +4,7 @@ export default function App() {
   const getScoreBarStyle = () => {
     // 1- Compute width
     const scoreWidth = `${value * 10}%`;
+    
 
     // 2- Compute color (optional)
     let scoreColor = `#${value >= 5 ? "4caf50": "f44336"}`;
